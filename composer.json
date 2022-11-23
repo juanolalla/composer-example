@@ -1,8 +1,17 @@
 {
-    "name": "metrotranscom/mtc_eyebrow",
-    "description": "Provides a drop-down menu for important MTC sites.",
-    "type": "drupal-custom-module",
-    "homepage": "https://github.com/metrotranscom/mtc_eyebrow",
+    "name": "juanolalla/composer-example",
+    "description": "Example project for development/testing purpose.",
+    "type": "project",
+    "homepage": "https://github.com/juanolalla/composer-example",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/juanolalla/library-example"
+        }
+    ],
+    "require": {
+      "juanolalla/library-example": "dev-mtc"
+    }
 }
