@@ -1,0 +1,8 @@
+{
+    "name": "metrotranscom/mtc_eyebrow",
+    "description": "Provides a drop-down menu for important MTC sites.",
+    "type": "drupal-custom-module",
+    "homepage": "https://github.com/metrotranscom/mtc_eyebrow",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
