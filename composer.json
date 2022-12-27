@@ -4,10 +4,5 @@
     "type": "project",
     "homepage": "https://github.com/juanolalla/composer-example",
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-      "juanolalla/mtc_eyebrow-mtc": "1.1.0",
-      "juanolalla/mtc_eyebrow-joint": "1.1.0",
-      "juanolalla/mtc_eyebrow-abag": "1.1.0"
-    }
+    "prefer-stable": true
 }

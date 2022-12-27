@@ -39,5 +39,10 @@
               }
           }
         }
-    ]
+    ],
+    "require": {
+      "juanolalla/mtc_eyebrow-mtc": "1.1.0",
+      "juanolalla/mtc_eyebrow-joint": "1.1.0",
+      "juanolalla/mtc_eyebrow-abag": "1.1.0"
+    }
 }
