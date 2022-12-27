@@ -5,60 +5,9 @@
     "homepage": "https://github.com/juanolalla/composer-example",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-mtc",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/mtc.1.0.zip",
-                  "type": "zip"
-              }
-          }
-        },
-        {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-joint",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/joint.1.0.zip",
-                  "type": "zip"
-              }
-          }
-        },
-        {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-abag",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/abag.1.0.zip",
-                  "type": "zip"
-              }
-          }
-        }
-    ],
     "require": {
-      "composer/installers": "^1.9",
       "juanolalla/mtc_eyebrow-mtc": "1.1.0",
       "juanolalla/mtc_eyebrow-joint": "1.1.0",
       "juanolalla/mtc_eyebrow-abag": "1.1.0"
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true
-        }
-    },
-    "extra": {
-        "installer-paths": {
-            "docroot/libraries/{$name}": [
-                "type:drupal-library"
-            ]
-        }
     }
 }
