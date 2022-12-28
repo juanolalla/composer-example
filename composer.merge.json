@@ -1,48 +1,16 @@
 {
     "name": "juanolalla/composer-example",
-    "description": "Example project for development/testing purpose.",
+    "description": "Dependencies for juanolalla/composer-example.",
     "type": "project",
     "repositories": [
         {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-mtc",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/mtc.1.0.zip",
-                  "type": "zip"
-              }
-          }
-        },
-        {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-joint",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/joint.1.0.zip",
-                  "type": "zip"
-              }
-          }
-        },
-        {
-          "type": "package",
-          "package": {
-              "name": "juanolalla/mtc_eyebrow-abag",
-              "version": "1.1.0",
-              "type": "drupal-library",
-              "dist": {
-                  "url": "https://github.com/juanolalla/library-example/archive/refs/tags/abag.1.0.zip",
-                  "type": "zip"
-              }
-          }
+            "type": "git",
+            "url": "https://github.com/juanolalla/library-example"
         }
     ],
     "require": {
-      "juanolalla/mtc_eyebrow-mtc": "1.1.0",
-      "juanolalla/mtc_eyebrow-joint": "1.1.0",
-      "juanolalla/mtc_eyebrow-abag": "1.1.0"
+        "juanolalla/library-example-mtc": "dev-mtc",
+        "juanolalla/library-example-joint": "dev-joint-agency",
+        "juanolalla/library-example-abag": "dev-abag"
     }
 }
